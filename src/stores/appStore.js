@@ -9,13 +9,18 @@ class AppStore {
     @observable forms
     @observable editFields
     @observable isLogin
-
+    @observable currentName
+    @observable stateforUser
+    @observable info
     constructor() {
         this.isLogin = !!Session.isAuthenticated()
         this.num = 0
         this.flag = ''
         this.forms = {}
         this.editFields = {permissions: {value: []}}
+        this.currentName =''
+        this.stateforUser = false
+        this.info = []
     }
 
 
@@ -39,16 +44,33 @@ class AppStore {
     @action login = async values =>{
 
             const res = await post(`${process.env.REACT_APP_API_URL}/login`,values)
-            console.log(res,'res')
+            console.log(values,'res')
           if (res.data===200){
             runInAction(()=>{
                 this.isLogin = true
+                this.currentName = values.loginName
             })
           }else {
                 message.error("用户名或密码错误，登录失败")
           }
 
 
+    }
+
+    @action changeState = async() =>{
+        runInAction(()=>{
+            this.stateforUser =true
+
+        })
+    }
+
+    @action
+    initUserInfo = async (loginName) =>{
+        const res = await  get(`${process.env.REACT_APP_API_URL}/findOne?loginName=${loginName}`)
+        console.log(res,'res is here')
+        runInAction(()=>{
+            this.info = res
+        })
     }
 
     @action
