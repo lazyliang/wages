@@ -5,6 +5,7 @@ import asyncComponent from './components/commons/AsyncComponent'
 const Login = asyncComponent(() => import('./components/Layout/Login'))
 const Main = asyncComponent(()=>import('./components/Layout/Main'))
 
+
 @inject('appStore')@withRouter @observer
 export default class App extends Component {
   render() {
