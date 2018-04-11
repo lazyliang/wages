@@ -12,6 +12,9 @@ class AppStore {
     @observable currentName
     @observable stateforUser
     @observable info
+    @observable pagination
+    @observable list
+    @observable loading
     constructor() {
         this.isLogin = !!Session.isAuthenticated()
         this.num = 0
@@ -21,6 +24,9 @@ class AppStore {
         this.currentName =''
         this.stateforUser = false
         this.info = []
+        this.pagination = {}
+        this.list = []
+        this.loading = false
     }
 
 
@@ -44,7 +50,7 @@ class AppStore {
     @action login = async values =>{
 
             const res = await post(`${process.env.REACT_APP_API_URL}/login`,values)
-            console.log(values,'res')
+        console.log(values,'res')
           if (res.data===200){
             runInAction(()=>{
                 this.isLogin = true
@@ -87,6 +93,30 @@ class AppStore {
         //  this.flag=res
         // })
 
+    }
+
+    @action
+    initUser = async ()=> {
+        // runInAction(()=>{
+        //     this.loading = true
+        // })
+        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`)
+        runInAction(()=>{
+            this.list = res.content.map(l=>{
+                return{
+                    id:l.id,
+                    name:l.name,
+                    sex:l.sex,
+                    age:l.age
+                }
+            })
+            this.pagination = {
+                total: res.totalElements,
+                results: res.size,
+                page: res.number,
+            }
+        })
+         this.loading = false
     }
 
 

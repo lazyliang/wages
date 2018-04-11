@@ -25,7 +25,7 @@ export default class Login extends Component {
         const {login} = this.props.appStore
         const {validateFieldsAndScroll} = this.props.form
         validateFieldsAndScroll((errors,values)=>{
-          if(errors)return
+            if(errors)return
             login(values)
         })
     }

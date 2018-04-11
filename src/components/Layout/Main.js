@@ -9,7 +9,8 @@ import asyncComponent from '../commons/AsyncComponent'
 import Bundle from "../commons/Bundle";
 
 
-const Manager = asyncComponent(()=>import('./Manager'))
+const Manager = asyncComponent(()=>import('../../router/wages/Manager'))
+const Wages = asyncComponent(()=>import('../../router/wages/Wages'))
 
 
 
@@ -51,8 +52,9 @@ export default class Main extends Component {
         return(
             <Row>
                 <Col span={18} push={6}>
-                    <Card title="Card title">
-                        <Route exact path="/manager" component={Manager}/>
+                    <Card title="工资管理系统">
+                        <Route exact path="/userManager" component={Manager}/>
+                        <Route exact path="/wagesManager" component={Wages}/>
                     {/*<p*/}
                         {/*style={{*/}
                             {/*fontSize: 14,*/}
@@ -94,13 +96,13 @@ export default class Main extends Component {
                         >
                             <Menu.Item key="1" >
                                 <Icon type="pie-chart" />
-                                <Link to={'/manager'}>
-                                    123
-                                </Link>
+                                <span>用户管理</span>
+                                <Link to={'/userManager'}/>
                             </Menu.Item>
                             <Menu.Item key="2">
                                 <Icon type="desktop" />
-                                <span>Option 2</span>
+                                <span>工资管理</span>
+                                <Link to={'/wagesManager'}/>
                             </Menu.Item>
                             <Menu.Item key="3">
                                 <Icon type="inbox" />
