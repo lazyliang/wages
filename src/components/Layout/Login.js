@@ -1,9 +1,10 @@
 import React,{Component} from  'react'
 import { observer, inject } from 'mobx-react'
-import  { Form, Icon, Input, Button, Checkbox } from 'antd'
+import  { Form, Icon, Input, Button, Checkbox,Card } from 'antd'
 import './index.css'
 const FormItem = Form.Item;
 const form =Form.create()
+
 // ({
 //     onFieldsChange(props,changedFields){
 //       props.appStore.onFormsChange(changedFields);
@@ -31,8 +32,11 @@ export default class Login extends Component {
     }
     render() {
         const { getFieldDecorator } = this.props.form;
+
         return (
-            <div align="center">
+            <Card style={styles.center}>
+            <div align="center" >
+
             <Form onSubmit={this.handleSubmit} className="login-form">
                 <FormItem>
                     {getFieldDecorator('loginName', {
@@ -55,6 +59,7 @@ export default class Login extends Component {
 
             </Form>
             </div>
+            </Card>
         );
     }
 
@@ -63,3 +68,14 @@ export default class Login extends Component {
   }
 
 }
+const styles={
+    center:{
+        position: 'absolute',
+        width: '25%',
+        height: '43%',
+        top: '17%',
+        left: '59%',
+        boxShadow: '0 0 100px rgba(0, 0, 0, .08)',
+      }
+}
+

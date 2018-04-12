@@ -25,7 +25,6 @@ export default class Main extends Component {
 
         this.props.appStore.initUserInfo(this.props.appStore.currentName)
         console.log(this.props.appStore.stateforUser,'is')
-
     }
    toManager = () => {
       const info1 = this.props.appStore.info
@@ -51,35 +50,10 @@ export default class Main extends Component {
 
         return(
             <Row>
-                <Col span={18} push={6}>
+                <Col span={18} push={5}>
                     <Card title="工资管理系统">
-                        <Route exact path="/userManager" component={Manager}/>
-                        <Route exact path="/wagesManager" component={Wages}/>
-                    {/*<p*/}
-                        {/*style={{*/}
-                            {/*fontSize: 14,*/}
-                            {/*color: 'rgba(0, 0, 0, 0.85)',*/}
-                            {/*marginBottom: 25,*/}
-                            {/*fontWeight: 500,*/}
-                        {/*}}*/}
-                    {/*>*/}
-                        {/*Group title*/}
-                    {/*</p>*/}
-                    {/*<Card*/}
-                        {/*type="inner"*/}
-                        {/*title="Inner Card title"*/}
-                        {/*extra={<a href="#">More</a>}*/}
-                    {/*>*/}
-                        {/*Inner Card content*/}
-                    {/*</Card>*/}
-                    {/*<Card*/}
-                        {/*style={{ marginTop: 16 }}*/}
-                        {/*type="inner"*/}
-                        {/*title="Inner Card title"*/}
-                        {/*extra={<a href="#">More</a>}*/}
-                    {/*>*/}
-                        {/*Inner Card content*/}
-                    {/*</Card>*/}
+                        <Route  path="/userManager" component={Manager}/>
+                        <Route  path="/wagesManager" component={Wages}/>
                 </Card>
                 </Col>
                 <Col span={6} pull={18}>
