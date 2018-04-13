@@ -72,6 +72,41 @@ class AppStore {
           }
     }
 
+
+    @action
+    searchUserList = async(page)=>{
+        runInAction(()=>{
+
+            this.loading = true
+        })
+        if(page){
+            page--
+        }else if(this.pagination.page){
+            page = this.pagination.page -1
+        }else {
+            page = 0
+        }
+        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`)
+        runInAction(()=>{
+            this.list = res.content.map(l=>{
+                return{
+                    id:l.id,
+                    name:l.name,
+                    sex:l.sex,
+                    age:l.age,
+                    loginName:l.loginName
+                }
+            })
+            this.pagination = {
+                total: res.totalElements,
+                results: res.size,
+                page: res.number,
+            }
+            this.loading = false
+        })
+
+    }
+
     @computed
     get fields(){
         let fields = {
@@ -145,10 +180,11 @@ class AppStore {
     }
 
     @action
-    showDetail = async(id) =>{
-        const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${id}`)
+    showDetail = async(record) =>{
+        const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
         runInAction(()=>{
             this.mForm = res
+            // this.forms = res
         })
     }
 
@@ -214,6 +250,7 @@ class AppStore {
             // }else {
             //     await this.searchMotorcycleTypeList(this.pagination.page)
             // }
+          await this.searchUserList(this.pagination.page)
         } else {
             const res = await json.post(`${process.env.REACT_APP_API_URL}/user/insert`, this.mForm )
             // if (res && res.status === 500) {
@@ -221,6 +258,7 @@ class AppStore {
             // }else {
             //     await this.searchMotorcycleTypeList(this.pagination.page - 1)
             // }
+            await this.searchUserList(this.pagination.page-1)
         }
 
         runInAction(() => {

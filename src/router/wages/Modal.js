@@ -5,7 +5,7 @@ import { Table,Button,Spin ,Modal } from 'antd'
 
 
 const {Column} = Table
-@inject('appStore') @withRouter @observer
+@inject('appStore')  @withRouter @observer
 export default class Main extends Component {
     handleCancel= () =>{
         this.props.appStore.modal = 'hide'

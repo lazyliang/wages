@@ -2,191 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76add7f0-2056-4ba3-81da-367549124d47" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/004129c6624085e1f6673f586451f8bdcd6451dc.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/02ae28515c2be0505eb3d991748e41c6011d0b51.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/02de472f12cf5e0748fba55837ce5060b7f5cc9c.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/053228fd2f2d016301819ecc296066950209f81f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/05644710b6216423e159e70212d9a8ff7253a478.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/064a0cb7720a0f2115b25d11cec95f3dbfc261ad.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/07d91dcddc6927c75e99a19df560aa1266f29338.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/093462ecdc8e8ab1cfc7bdd1b7fe61867375efd8.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0a4cceb3029d52bdbb2705d815b00cec73b7c2f7.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0c2f22cbe471c098957209317057bc8ad8fd84a8.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0cd891f75dd48841a7578a47262e20341e76f8cb.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0d47eb4d5ae5ceb01b1702b9892ecf8aaea757a5.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0da4ee89a815b2557a866e55a9b92ec8b24ee6ec.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/12824fe27ed995c15d2b2f77526cd0fa5c399b22.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/188ea95a179eece87ac5c800cd9c8020bf40f2fa.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b07912eea994f8e94815edd5b3335b232c9a652.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b18d3f44117808b543d401abd525636758c8248.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b4fd9fa5ecdfa9187b66a4eadcfb717e94460f4.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1ba877faf5c406d5c1e553ff465bb70aa6c049bd.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1c3521594eaaac297c62ba7c450ccab550b37798.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1d1cd8d634ec33b0b84f729bb2c124cf8a3f2d62.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2031721ef377d02714866419b7afe8a79c0782b6.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/214a145629ec7ab8ddb7e2dc153798f05f403cbe.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/21d358a4f93da23b02cbe8074d26a1158d0eb493.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2425d940ac104b44866baac49fe215bc55a78ec5.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/24979845bf2aa6bc63986654dffd76486f101b6b.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2599b73f4f2fb43af80bdfa8bf45b99334f504ee.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2730bb8a3b4a1e1b7cc324dbfab69ed728e54f8a.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/275c74fc166ac61b5755b3ecacc996bb95ee33d7.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/27872eba2068efec5e387a3f7bd0285efb6f9e23.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2793784549cb248d3eb7d6aea3b097e12897ef66.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/283adaa96c665913aad0b4161291d695e7ecd7d6.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/297a518994ee58485362ce78e6989949b1a80e39.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/29b48f680ab19b15243b5738bacd2784b22dba7d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2a4dff0410b86f7dd9962c9b8f98821ca26fea6e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2c7d086a529b4fcbacd00a7506a41f6c43fa40e3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/31f12905686ca4aa41276d9014485f7a97468864.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/32dd497dd351730d436c4c60306f998e1f41d658.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/33ac873a20c9ee14b0574402bb1299a96104e8f3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/33d7804fbd05b3ce9580eedad3062efd2104a345.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3469805fcde7e30a621f8dd92ea15f4ee7b0ad78.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/365cf91604d8e911f754d3fbf90ed5cd8676f160.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3725bcc9b9e96501cbb6c7b902735aa36ad1ab94.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/37ce7d36803398bf051ac7b86147de5f25cf402c.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3a84d86c1bd3c66ea1af2322378fddc1858295e4.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3afebe931ce669494be4d814c526427e8f3b2c7e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3b38f7d147d761462854f6e36a404136c5719a89.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3babf8504aef7da5eb1626df5b03e25763e4d416.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3eec7ab65a5bba86770f4ccb65299b96caa07ae7.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/410384e86e6e5e0660b611297008350c5d7e3032.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/433db29c0876f05553a35eac1a6e360ef6a8dbbb.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4431e1152b57b7742d1dd17aebf5b59e2a0115d2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/445af54c43c62e000e8303e895f9e8ad1916d35b.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4731916e0718af31e2d5521c1e73fdd85042d9da.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/491df675eb8dd4f9d803a1969232ed5a100b842d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4a61b45aacc0ccd7146bc44b35b6b0d473c0dc3d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4ab07da2ecd797f4c0a1a5b34e36dc313bac03ea.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4b5d3a4dbca5b5507ad2bb9dce3ca646123d89d9.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4c7abcfa7922421e57e2b470aa91d9c7dbaad756.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4f2f19defd250869fc93d9c671d1cb649eabbfcb.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4fd1e322569e68a7f1a4f2d3ff9ca23760cf905f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/51cffa2315a1227d6af9acc3634be8bfe058da5c.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/530735ca91fde6f428d31e05875145fb32ceed13.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5363db1fcfb700331ae12040bbb380bce270b31f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/556ee171d5e3ef67b082b440a21cf31adc0f2e68.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/56174753339113f8534f2c88fff11608be0e59f8.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/569978418d3a4601dfd5ad7294d12e40b9e644a3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/56e058cae873998ce833a92c0a0e09a419863bd0.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5b3b0bf325c92d417aeeb214006b905a805741d0.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5cf961c0c202702d5d4529799739bff6cbc5161e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d20c2601bc7159b846a4489cee1531b618367ea.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/63f3e3d4a433f1b8a908780f40b63b2f58cf7e49.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6599aeca06ace7cd6d330fba43fb5d9766ad1051.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/66e91870e0f54ab01cb8a5cce483bf1b424a827d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6702bb5177af375f393aa0beaefad4b379a71d70.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/671401d26cefb6e113dada0c91f8de244e3ae427.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6769afb3b690acc42be554e1f21a07334e624852.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/67eaa3fadd7ef98888280f6bb6aff9121f8ed95d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/68bc20ce8091bd7081475fdd1d48818c581e7b18.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/691ce7f7f256f1bd06a6cba8586f03e28cfeefca.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6a74ee8e4dcb9757f9b5c057c061393eed15f1a7.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c42220da72f3c27040300fbd4f6f2da3c60f448.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6ccf2b444db376ba4ee837da74ce96242ba4f014.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6f94b92f08024c52245c6155d7e24ab48574f6a5.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/70be50f381105fdb23e8881351892c90702f6f40.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/70f959281ba9a22241b4c570be9654e06893b8f9.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/71851abc50f4ed24860995f878c80202992da94d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/73aa10999d95156fcead2f27de263596a14ae70d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/786bef8d16c55b0190f8f39e589c3dc333dff906.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b5abc47f9599f42702e7cb0eab93a20495fa007.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7be92512cc9296131c43d4fffa67d5a9dd971077.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7d4529f290e857ef2b770bee984f27f6b705840a.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7d88a96d951771d47a1101ee246979d3a5d29716.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7ee599593c0b51cf1293b55d7f3f7da7286a8ff2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7f7ad9d43e6db936ddbe5781fb61d503f5947fb2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7ff5119d5dfd1fc6b07bb8e1d7495555e7b6a688.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/803f42fd95251d911ab9b3de4b604b2c1b3ef7b3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/80dd45adaafeecd329db31ac7608a63a955247ff.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8174d1d110f11b517c41199e19d025818f44627e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/81fe5a0ded56df97e8727fdde0c336eed0357df2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/83e5ae526eb2cb3db5b88a63b2665012ebc448ec.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/84c1d710698d82ee8b5884b0b20b1812be398f9b.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/85a147728ebd9d3c0aa1684a57ec3fe37ce9f3f2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/885b6557b95f95c9565e03aa70943d11397d67c1.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8c79560b9cfd1edaf1762dd7ddc1436c45af1046.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8e5cd5425e205f2908c41459c8a4d16655309a87.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9147344f381be2388d4158fff2be38d0d427582e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/92cfd7bafd2ce5597e4cf759901c71a6ac243058.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/93048024760d6a96c8e9f47440f8c8b46ba2c1ff.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9baf4ced52b3b3cfafd634a9e4679f4f990d2787.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9f4fc303e685fd39e9284ffbb1ea67e20e18af47.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9fee2c47fd7dfb3a0fd111fe39466ef923fb39da.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a160234f07535b05fa4771186c8fbbc40bced434.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a19aff19c06de85e5825f731260ddbde35de8f58.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a3060b3009037abffba41d1765b583f87468ad14.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a40032b5e43874b5753fc1672110f9f691ffc6c3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a4c29c1fe9bd524a9ff56342cd5647562b1e3d9f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a58194b7095f0f0371c7f2ff94272420b884c081.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a73751afceb0959c629ade34af4fe863cc2681bd.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/aa54ad7014a87ff4dbe62d7f69bd8988499dff4a.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ab379176458a2c4cd97a4f9b27ce1825cd3ea95d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b070d47d4565c392892396d8ea153e40b547e8fe.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b08fe18612ca666010e7abff8d789b1c819a868c.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b2d399b2f5395e9475fb5b8493341afe9fd49e1a.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b3d3ee6d2679acd6b47f555c8a3626fe67c9d2ea.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b43ea55112d378c05f5f7298594c100030eea81d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b5a0c0e561e033d359705e2c2b9861222e0ef7c1.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b6b0526b5fe259327eda6c3e898ac556114daa20.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ba8d4eab50643e96f322cf1fbdd23b91d5c7da1c.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd39de0b191b1448f5204affa7f997f9577f8984.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c64a1802cf3fdfa90f3aae46bc396b128be68012.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c80d227a64209bf0ae93d47d3c8134fbbdf8c85d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c84d916566303f1ebcac327bf4b5c20b292c0cf4.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c97be6a4f119895ac7b6c49a545f2c1eb1ccfaae.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cade9a63286cda24e29dcba5d2130cec52b20de8.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/caef5e068c34b3502e9f806d1332a307b87f4a13.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cafb36eaafb447d9bce97d3987966c8b23672224.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cb342157f2024c0c17b30896f45f491432da39e4.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cc4809e6456290e4230a49665e41102748b64884.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cca872907ef0421f543ac7d63f1dd19c9e76661d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cd5d93d16be8400a98e29dd328245e5a33801fd6.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cee8a7bdd93635834d8ec8b6049ef5fd038b556d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cf3e183722150761489d6ca9a6b2eef7a04c61bf.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d191f909720932a32e871280bed3be430dbdcd2e.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d22450bf76d0e862994bdbcafdcfcd26369c1748.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d66d94db14bbb0b34691d958a966b4f8af5fa284.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d73d0016e1cc62a0bd97652aec804fd8b4bac4ba.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d81d3e4b2d1ae6bc7cb601a52c08cd43be6fe839.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dbc2529572145dfbdb5beed5314708687925f102.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dbf48715cae73e359e8c2ffe56e9b00e72a8f932.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/dbfe60fccc07ae16840f85a4d60c667dfa7b48bd.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e007beeffda0ca290dfbae6e6bd18ca647dd3fd2.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e2cad08578290079ff7d2d2e14c13b31a47cd224.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e2cad8a0529256d2b8e4986cb1e4b6aa9bd922ea.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e40749ccf48f04727cee1ed1e5e94ffee79b6c11.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e64e6a9182483adede1f9be1b74d00ceee4de87d.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e6d564214e184dd7a6189b2a54f08d306b2435b1.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e6ee82ee25fc9d1a318f2e04a6f69f57671bea24.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e71c4a16d6a642acf90b4601d22ba2d4544cbbec.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e73fe1a06efea5db40e9fef344a89201f9db9437.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e75dde5cc4be63095574cd214b724584f551bb2f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e8cd231239223c7d408b20b3119d6d7ff49f5d2a.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eac52b0c1f759fc8cd5f351f4cbcafa6d3fead56.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ebf642bb92bb1918a9a997ff320b13f012c14155.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ec91e8c2114581e403eb099e682172054ba92574.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eeb5b7077aa1d122a1ab4b472847fea22ed64eb1.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ef75a0718c7d3deb9be5563ea2aef89471c160bb.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ef94df70cc52b3fc1663be9eafbc030aa8ce51c9.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f13c67993e6d988ea82c09f4e0f2e4b87383d1ca.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f1b60409279e5c50fc3d1c69d80f785a98531c4f.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f242bd02e72ff0fe5b4871c3d954e8bb8c6d703b.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f24323547be961a10c8920fa7eec4101a6718084.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f2c926e1e085ae696a3246d130de5e475e4710e0.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f7a57b1fd142593637eaab66c3d7618bc40b889b.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f84e8d2f7557f284b5e3e818f5136e2c0169aced.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f9cf80a3323098457de4200e03d067d0e1007644.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc0ef21626ee0cefead77d38105505f816b1d496.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fcc41cf73cd361472a5188a34c3c3d6b5d3b62d8.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fd5129f86304941faea20e89a92c1d49f901c7d3.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fe476b79430c5550c39a3600760ebc5b0e6ce729.json.gz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fe6375dd9da8239aeeffdb61ae08b31a9b438e0a.json.gz" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/router/wages/Manager.js" afterPath="$PROJECT_DIR$/src/router/wages/Manager.js" />
-      <change beforePath="$PROJECT_DIR$/src/router/wages/Modals.js" afterPath="$PROJECT_DIR$/src/router/wages/Modals.js" />
-      <change beforePath="$PROJECT_DIR$/src/stores/appStore.js" afterPath="$PROJECT_DIR$/src/stores/appStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/Manager.js" afterPath="$PROJECT_DIR$/src/router/wages/Manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/Modal.js" afterPath="$PROJECT_DIR$/src/router/wages/Modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/Modals.js" afterPath="$PROJECT_DIR$/src/router/wages/Modals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stores/appStore.js" afterPath="$PROJECT_DIR$/src/stores/appStore.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -203,7 +22,7 @@
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
+            <state relative-caret-position="0">
               <caret line="63" column="5" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="63" selection-end-column="5" />
               <folding />
             </state>
@@ -213,7 +32,7 @@
       <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Layout/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
+            <state relative-caret-position="1216">
               <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -232,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appStore.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appStore.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="165" column="28" lean-forward="false" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+            <state relative-caret-position="209">
+              <caret line="187" column="10" lean-forward="true" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -247,8 +66,8 @@
       <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/wages/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="114">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -259,8 +78,8 @@
       <file leaf-file-name="Modals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1766">
-              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -278,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Manager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="267">
+              <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -317,10 +136,10 @@
         <option value="$PROJECT_DIR$/src/components/Layout/Manager.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Login.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Main.js" />
-        <option value="$PROJECT_DIR$/src/router/wages/Modal.js" />
-        <option value="$PROJECT_DIR$/src/stores/appStore.js" />
         <option value="$PROJECT_DIR$/src/router/wages/Modals.js" />
+        <option value="$PROJECT_DIR$/src/router/wages/Modal.js" />
         <option value="$PROJECT_DIR$/src/router/wages/Manager.js" />
+        <option value="$PROJECT_DIR$/src/stores/appStore.js" />
       </list>
     </option>
   </component>
@@ -336,10 +155,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="483" />
-    <option name="y" value="53" />
+    <option name="x" value="13" />
+    <option name="y" value="26" />
     <option name="width" value="1378" />
-    <option name="height" value="852" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -411,13 +230,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/os5/backend-ui" />
+    <property name="last_opened_file_path" value="G:/os4/backend-ui" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -476,30 +295,60 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34670000" />
+    <option name="totallyTimeSpent" value="37798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="483" y="53" width="1378" height="852" extended-state="0" />
+    <frame x="13" y="26" width="1378" height="717" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26147428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3219178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26147428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32136753" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -519,88 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="63" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Wages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="133" column="28" lean-forward="false" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/EditForUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -717,6 +484,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Wages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/EditForUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="133" column="28" lean-forward="false" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1347">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="63" column="5" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="63" selection-end-column="5" />
           <folding />
@@ -741,6 +582,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="133" column="28" lean-forward="false" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/wages/EditForUser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -749,10 +610,202 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Wages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="104" column="56" lean-forward="false" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/EditForUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Wages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/wages/Modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -761,30 +814,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stores/appStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="165" column="28" lean-forward="false" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+        <state relative-caret-position="209">
+          <caret line="187" column="10" lean-forward="true" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Modals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1766">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/wages/Manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

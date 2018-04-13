@@ -45,7 +45,7 @@ export default class Main extends Component {
         )
     }
     showModal = (record) =>{
-        this.props.appStore.showDetail(record.id)
+        this.props.appStore.showDetail(record)
         console.log(this.props.appStore.userInfo,'userInfo')
         this.props.appStore.showModal();
     }
