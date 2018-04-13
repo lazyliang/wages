@@ -50,13 +50,14 @@ export default class Main extends Component {
         this.props.appStore.showModal();
     }
 
-    handleAdd = () => {
-        this.props.appStore.initEdit()
+    handleAdd = (record) => {
+        this.props.appStore.showModals(record)
     }
 
     handleEdit = (record) =>{
         this.props.appStore.showDetail(record.id)
         this.props.appStore.showModals(record);
+
        console.log(this.props.appStore.userInfo,'user')
     }
 }

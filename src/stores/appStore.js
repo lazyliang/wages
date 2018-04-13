@@ -35,7 +35,6 @@ class AppStore {
         this.userInfo = {}
         this.modal = 'hide'
         this.mForm = {}
-        this.editFields = {permissions: {value: []}}
     }
 
 
@@ -71,8 +70,6 @@ class AppStore {
                   this.loading = false
               })
           }
-
-
     }
 
     @computed
@@ -151,7 +148,7 @@ class AppStore {
     showDetail = async(id) =>{
         const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${id}`)
         runInAction(()=>{
-            this.userInfo = res
+            this.mForm = res
         })
     }
 

@@ -46,7 +46,7 @@ export default class Main extends Component {
             <div>
                 {/*<Button type="primary" onClick={this.showModal}>Open</Button>*/}
                 <Modal
-                    title="个人资料"
+                    title="信息编辑"
                     visible={appStore.modals === 'show'}
                     onOk={this.handleOk}
                     onCancel={this.handleCancel}
@@ -54,6 +54,48 @@ export default class Main extends Component {
                     <Form style={{width: 500}}>
                         <FormItem label="姓名" {...formItemLayout}>
                             {getFieldDecorator('name', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="年龄" {...formItemLayout}>
+                            {getFieldDecorator('age', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="性别" {...formItemLayout}>
+                            {getFieldDecorator('sex', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="地址" {...formItemLayout}>
+                            {getFieldDecorator('address', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="联系电话" {...formItemLayout}>
+                            {getFieldDecorator('tel', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="登录名" {...formItemLayout}>
+                            {getFieldDecorator('loginName', {
+                                rules: [{required: true, message: '请填写用户名',}]
+                            })(
+                                <Input/>
+                            )}
+                        </FormItem>
+                        <FormItem label="密码" {...formItemLayout}>
+                            {getFieldDecorator('password', {
                                 rules: [{required: true, message: '请填写用户名',}]
                             })(
                                 <Input/>
@@ -79,7 +121,11 @@ export default class Main extends Component {
     }
     handleOk = () => {
         const fields = this.props.appStore.editFields
+        const userInfo = this.props.appStore.userInfo
+        console.log(userInfo,'userInfo')
         this.props.form.validateFields((err, values) => {
+            console.log(fields,'fields')
+            console.log(values,'values')
             if (!err) {
                 this.props.appStore.save({
                     ...values,
