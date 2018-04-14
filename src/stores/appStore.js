@@ -145,11 +145,21 @@ class AppStore {
     }
 
     @action
-    showDetail = async(id) =>{
-        const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${id}`)
-        runInAction(()=>{
-            this.mForm = res
-        })
+    showDetail = async(record) =>{
+        if(!record){
+            console.log('新增')
+        }else{
+            runInAction(()=>{
+                this.userInfo = record
+                this.mForm = record
+            })
+            console.log('123',this.mForm)
+        }
+
+        // const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
+        // runInAction(()=>{
+        //     this.mForm = res
+        // })
     }
 
     @action

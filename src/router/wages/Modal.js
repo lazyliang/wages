@@ -12,7 +12,6 @@ export default class Main extends Component {
     }
     render(){
         const { appStore } = this.props
-        console.log(appStore,'app')
         return(
             <div>
                 {/*<Button type="primary" onClick={this.showModal}>Open</Button>*/}

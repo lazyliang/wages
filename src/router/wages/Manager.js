@@ -45,8 +45,7 @@ export default class Main extends Component {
         )
     }
     showModal = (record) =>{
-        this.props.appStore.showDetail(record.id)
-        console.log(this.props.appStore.userInfo,'userInfo')
+        this.props.appStore.showDetail(record)
         this.props.appStore.showModal();
     }
 
@@ -55,10 +54,8 @@ export default class Main extends Component {
     }
 
     handleEdit = (record) =>{
-        this.props.appStore.showDetail(record.id)
+        this.props.appStore.showDetail(record)
         this.props.appStore.showModals(record);
-
-       console.log(this.props.appStore.userInfo,'user')
     }
 }
 const ButtonGroupBar = ({

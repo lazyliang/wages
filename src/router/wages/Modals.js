@@ -3,8 +3,7 @@ import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
 import {Table, Button, Input, Modal, Form} from 'antd'
 
-const form = Form.create(
-    {
+const form = Form.create({
         onFieldsChange(props, changedFields) {
             props.appStore.onEditField(changedFields);
         },
@@ -18,7 +17,6 @@ const form = Form.create(
                 tel: Form.createFormField(props.appStore.fields.tel),
                 password: Form.createFormField(props.appStore.fields.password),
                 loginName:Form.createFormField(props.appStore.fields.loginName),
-
             }
         }
     }
