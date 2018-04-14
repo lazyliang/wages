@@ -132,6 +132,6 @@ export default class Main extends Component {
                 });
             }
         });
-
+   this.props.appStore.modals = 'hide'
     };
 }
