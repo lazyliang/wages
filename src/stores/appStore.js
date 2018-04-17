@@ -140,15 +140,15 @@ class AppStore {
                 results: res.size,
                 page: res.number,
             }
+            this.mForm = {}
         })
          this.loading = false
     }
 
     @action
     showDetail = async(record) =>{
-        if(!record){
-            console.log('新增')
-        }else{
+
+            console.log(record,'321')
             runInAction(()=>{
                 this.userInfo = record
                 this.mForm = record
@@ -160,7 +160,7 @@ class AppStore {
         // runInAction(()=>{
         //     this.mForm = res
         // })
-    }
+
 
     @action
     showModal = () =>{
@@ -186,6 +186,16 @@ class AppStore {
         if (!id){
             runInAction(()=>{
                 this.loading = false
+                this.modals = 'show'
+                this.mForm = {
+                    name:'',
+                    age:'',
+                    sex:'',
+                    address:'',
+                    loginName:'',
+                    password:'',
+                    tel:'',
+                }
 
             })
         }
@@ -236,6 +246,19 @@ class AppStore {
         runInAction(() => {
             this.modal = 'hide'
             this.mForm.id ? message.success('修改成功') : message.success('新增成功')
+            this.initUser()
+        })
+    }
+    @action
+    deleteOne = async (record)=>{
+        runInAction(()=>{
+            this.loading = true
+        })
+        const res = await json.delete(`${process.env.REACT_APP_API_URL}/user/deleteOne?id=${record.id}`)
+        runInAction(()=>{
+            this.loading = false
+            message.success('删除成功')
+            this.initUser()
         })
     }
 
