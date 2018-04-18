@@ -10,7 +10,7 @@ import Bundle from "../commons/Bundle";
 
 
 const Manager = asyncComponent(()=>import('../../router/wages/Manager'))
-const Wages = asyncComponent(()=>import('../../router/wages/Wages'))
+const Wages = asyncComponent(()=>import('../../router/wages/views/List'))
 
 
 
@@ -54,6 +54,7 @@ export default class Main extends Component {
                     <Card title="工资管理系统">
                         <Route  path="/userManager" component={Manager}/>
                         <Route  path="/wagesManager" component={Wages}/>
+                        <Route  path="/noti"/>
                 </Card>
                 </Col>
                 <Col span={6} pull={18}>
