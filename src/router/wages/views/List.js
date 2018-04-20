@@ -2,6 +2,7 @@ import {inject, observer} from "mobx-react/index";
 import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
 import { Table,Button,Spin,Card } from 'antd'
+import  WagesModal  from './WagesModal'
 
 
 
@@ -37,11 +38,13 @@ export default class List extends Component {
                             </div>
                         )}/>
                     </Table>
-                    {/*<Modal/>*/}
-                    {/*<Modals/>*/}
+                    <WagesModal/>
 
                 </Spin>
             </Card>
         )
+    }
+    handleAdd = () => {
+        this.props.wagesStore.initEdit()
     }
 }
