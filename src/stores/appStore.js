@@ -159,18 +159,6 @@ class AppStore {
          this.loading = false
     }
 
-    @action
-    initPage = async(pagination)=>{
-        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`)
-        runInAction(()=>{
-            this.pagination = {
-                total: res.totalElements,
-                results: res.size,
-                page: pagination.current+1
-
-            }
-        })
-    }
 
     @action
     showDetail = async(record) =>{
