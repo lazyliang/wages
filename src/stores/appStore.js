@@ -2,6 +2,7 @@ import {observable, action, runInAction, computed} from 'mobx'
 import {json, post, get} from '../router/utils/ajax'
 import * as Session from '../router/utils/Session'
 import { message }from 'antd'
+import { handleSeerchAndPage } from '../router/utils/Utils'
 
 class AppStore {
     @observable num
@@ -19,6 +20,7 @@ class AppStore {
     @observable userInfo
     @observable modals
     @observable mForm
+    @observable page
     constructor() {
         this.isLogin = !!Session.isAuthenticated()
         this.num = 0
@@ -28,13 +30,24 @@ class AppStore {
         this.currentName =''
         this.stateforUser = false
         this.info = []
-        this.pagination = {}
+        this.pagination = {
+            current:0,
+            total:1
+        }
         this.list = []
         this.loading = false
         this.modal = 'hide'
         this.userInfo = {}
         this.modal = 'hide'
         this.mForm = {}
+        this.page = {
+            current: 0,
+            total: 1
+        }
+        this.pagination = {
+            current: 0,
+            total: 1
+        }
     }
 
 
@@ -120,11 +133,12 @@ class AppStore {
     }
 
     @action
-    initUser = async ()=> {
+    initUser = async (page)=> {
         runInAction(()=>{
             this.loading = true
         })
-        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`)
+        // let search = handleSeerchAndPage(page,this.pagination)
+        const res = await get(`${process.env.REACT_APP_API_URL}/users:search?page=${page}`)
         runInAction(()=>{
             this.list = res.content.map(l=>{
                 return{
@@ -138,11 +152,24 @@ class AppStore {
             this.pagination = {
                 total: res.totalElements,
                 results: res.size,
-                page: res.number,
+                current: res.number+1,
             }
             this.mForm = {}
         })
          this.loading = false
+    }
+
+    @action
+    initPage = async(pagination)=>{
+        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`)
+        runInAction(()=>{
+            this.pagination = {
+                total: res.totalElements,
+                results: res.size,
+                page: pagination.current+1
+
+            }
+        })
     }
 
     @action
@@ -229,25 +256,42 @@ class AppStore {
             const res = await json.put(`${process.env.REACT_APP_API_URL}/user/updateOne`, {
                 ...this.mForm, isDelete:'0',
             })
-            // if (res && res.status === 500) {
-            //     return
-            // }else {
-            //     await this.searchMotorcycleTypeList(this.pagination.page)
-            // }
+            if (res && res.status === 0) {
+                runInAction(()=>{
+                    this.modal = 'hide'
+                    message.error("修改失败")
+                    this.initUser()
+                })
+                return
+
+            }else{
+                runInAction(() => {
+                    this.modal = 'hide'
+                    message.success('修改成功')
+                    this.initUser()
+                })
+            }
         } else {
             const res = await json.post(`${process.env.REACT_APP_API_URL}/user/insert`, this.mForm )
-            // if (res && res.status === 500) {
-            //     return
-            // }else {
-            //     await this.searchMotorcycleTypeList(this.pagination.page - 1)
-            // }
+            console.log(res,'res')
+            if (res && res.status === 0) {
+                runInAction(()=>{
+                    this.modal = 'hide'
+                    message.error("新增失败")
+                    this.initUser()
+                })
+                return
+
+            }else{
+                runInAction(() => {
+                    this.modal = 'hide'
+                    message.success('新增成功')
+                    this.initUser()
+                })
+            }
+
         }
 
-        runInAction(() => {
-            this.modal = 'hide'
-            this.mForm.id ? message.success('修改成功') : message.success('新增成功')
-            this.initUser()
-        })
     }
     @action
     deleteOne = async (record)=>{
