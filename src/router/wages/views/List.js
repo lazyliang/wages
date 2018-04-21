@@ -3,6 +3,7 @@ import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
 import { Table,Button,Spin,Card } from 'antd'
 import  WagesModal  from './WagesModal'
+import WagesInfo from './WagesInfo'
 
 
 
@@ -10,6 +11,12 @@ const ButtonGroup = Button.Group
 const {Column} = Table
 @inject('wagesStore') @withRouter @observer
 export default class List extends Component {
+    componentDidMount () {
+        this.props.wagesStore.initWages()
+        this.props.wagesStore.initUserInfo()
+        console.log(this.props.wagesStore,'sdsdsd')
+
+    }
     render(){
         const { wagesStore } = this.props
         return(
@@ -29,13 +36,14 @@ export default class List extends Component {
                         <Column title="月份" dataIndex="month" key="month"  width={100}/>
                         <Column title="操作" key="operator" width={160} render={(text, record) => (
                             <div>
-                                {/*<Button type="primary" onClick={this.showModal.bind(this,record)}>查看详情</Button>*/}
-                                {/*<Button type="default" onClick={this.handleEdit.bind(this,record)}>修改</Button>*/}
-                                {/*<Button type="default" onClick={this.handleDelete.bind(this,record)}>删除</Button>*/}
+                                <Button type="primary" onClick={this.showModal.bind(this,record)}>查看详情</Button>
+                                <Button type="default" onClick={this.handleEdit.bind(this,record)}>修改</Button>
+                                <Button type="default" onClick={this.handleDelete.bind(this,record)}>删除</Button>
                             </div>
                         )}/>
                     </Table>
                     <WagesModal/>
+                    <WagesInfo/>
 
                 </Spin>
             </Card>
@@ -43,5 +51,22 @@ export default class List extends Component {
     }
     handleAdd = () => {
         this.props.wagesStore.initEdit()
+    }
+    handleEdit = () =>{
+
+    }
+    handleDelete = () =>{
+
+    }
+    showModal = (record) =>{
+
+            this.props.wagesStore.showDetail(record)
+            this.props.wagesStore.showModals();
+
+    }
+
+    handleTableChange = (pagination) => {
+        this.props.wagesStore.initWages(pagination.current-1)
+        console.log(pagination,'pa')
     }
 }

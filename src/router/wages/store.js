@@ -13,23 +13,50 @@ class WagesStore {
     @observable editFields
     @observable forms
     @observable mForm
+    @observable modals
+    @observable users
 
     constructor() {
         this.loading = false
         this.modal = 'hide'
         this.search = {}
-        this.pagination = {}
         this.list = []
         this.forms = {}
         this.mForm = {}
+        this.editFields = {permissions: {value: []}}
+        this.userInfos = []
+        this.modals = 'hide'
+        this.users = {}
+        this.page = {
+            current: 0,
+            total: 1
+        }
+        this.pagination = {
+            current: 0,
+            total: 1
+        }
     }
 
     @action
-    initWages = async () => {
+    initUserInfo = async ()=>{
+        const res = await get(`${process.env.REACT_APP_API_URL}/users:search`,
+            {  'size':200})
+
+        if (res && res.status === 0) {
+            return
+        } else {
+            runInAction(() => {
+                this.userInfos = res.content
+            })
+        }
+    }
+
+    @action
+    initWages = async (page) => {
         runInAction(() => {
             this.loading = true
         })
-        const res = await get(`${process.env.REACT_APP_API_URL}/wages:search`)
+        const res = await get(`${process.env.REACT_APP_API_URL}/wages:search?page=${page}`)
         runInAction(() => {
             this.list = res.content.map(l => {
                 return {
@@ -38,23 +65,64 @@ class WagesStore {
                     num: l.num,
                     year: l.year,
                     month: l.month,
-                    sum: l.sum
+                    sum: l.sum,
+                    addtion:l.addtion,
+                    overTime:l.overTime,
+                    baseWages:l.baseWages,
+                    yk:l.yk
                 }
             })
             this.pagination = {
                 total: res.totalElements,
                 results: res.size,
-                page: res.number,
+                current: res.number+1,
             }
             this.forms = {}
         })
         this.loading = false
     }
 
-    @action
-    save = async () => {
+    @action save = async () => {
+        console.log(this.mForm, 'mform')
+        if (this.mForm.id) {
+            // const res = await json.put(`${process.env.REACT_APP_API_URL}/user/updateOne`, {
+            //     ...this.mForm, isDelete:'0',
+            // })
+            // if (res && res.status === 0) {
+            //     runInAction(()=>{
+            //         this.modal = 'hide'
+            //         message.error("修改失败")
+            //         this.initUser()
+            //     })
+            //     return
+            //
+            // }else{
+            //     runInAction(() => {
+            //         this.modal = 'hide'
+            //         message.success('修改成功')
+            //         this.initUser()
+            //     })
+            // }
+        } else {
+            const res = await json.post(`${process.env.REACT_APP_API_URL}/wages/createOne`, this.mForm)
+            console.log(res, 'res')
+            if (res && res.status === 0) {
+                runInAction(() => {
+                    this.modal = 'hide'
+                    message.error("新增失败")
+                    this.initWages()
+                })
+                return
 
+            } else {
+                runInAction(() => {
+                    this.modal = 'hide'
+                    message.success('新增成功')
+                    this.initWages()
+                })
+            }
 
+        }
     }
 
     @action.bound
@@ -68,7 +136,9 @@ class WagesStore {
             month: fields.month.value,
             baseWages: fields.baseWages.value,
             addtion: fields.addtion.value,
-            overTime: fields.overTime.value
+            overTime: fields.overTime.value,
+            userId:fields.userId.value,
+            yk:fields.yk.value
         }
         this.mForm = mForm
     }
@@ -83,9 +153,27 @@ class WagesStore {
             month: {value: this.mForm.month},
             baseWages: {value: this.mForm.baseWages},
             addtion: {value: this.mForm.addtion},
-            overTime: {value: this.mForm.overTime}
+            overTime: {value: this.mForm.overTime},
+            userId:{value:this.mForm.userId},
+            yk:{value:this.mForm.yk}
         }
         return fields
+    }
+
+    showDetail = async(record) =>{
+
+        console.log(record,'321')
+        runInAction(()=>{
+            this.users = record
+            this.mForm = record
+        })
+        console.log('123',this.mForm)
+    }
+    @action
+    showModals = () =>{
+        runInAction(()=>{
+            this.modals = 'show'
+        })
     }
 
     @action
@@ -105,6 +193,8 @@ class WagesStore {
                     baseWages: '',
                     addtion: '',
                     overTime: '',
+                    userId:'',
+                    yk:''
                 }
 
             })
