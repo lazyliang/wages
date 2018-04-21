@@ -5,7 +5,6 @@ import {Table, Button, Spin, Card} from 'antd'
 import Modal from './Modal'
 import Modals from './Modals'
 
-const ButtonGroup = Button.Group
 const {Column} = Table
 @inject('appStore') @withRouter @observer
 export default class Main extends Component {
@@ -16,7 +15,7 @@ export default class Main extends Component {
     render() {
         const {appStore} = this.props
         return (
-            <Card>
+            <Card style={styles.cardContent}>
                 <div>
                     <Button type="primary" onClick={this.handleAdd}>新增</Button>
                 </div>
@@ -63,7 +62,12 @@ export default class Main extends Component {
     }
 
     handleTableChange = (pagination) => {
-     this.props.appStore.initUser(pagination.current-1)
+        this.props.appStore.initUser(pagination.current-1)
         console.log(pagination,'pa')
+    }
+}
+const styles = {
+    cardContent: {
+        margin: '10px'
     }
 }

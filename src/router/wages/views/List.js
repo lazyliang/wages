@@ -20,7 +20,7 @@ export default class List extends Component {
     render(){
         const { wagesStore } = this.props
         return(
-            <Card >
+            <Card style={styles.cardContent}>
                 <div>
                     <Button type="primary" onClick={this.handleAdd}>新增</Button>
                 </div>
@@ -60,13 +60,18 @@ export default class List extends Component {
     }
     showModal = (record) =>{
 
-            this.props.wagesStore.showDetail(record)
-            this.props.wagesStore.showModals();
+        this.props.wagesStore.showDetail(record)
+        this.props.wagesStore.showModals();
 
     }
 
     handleTableChange = (pagination) => {
         this.props.wagesStore.initWages(pagination.current-1)
         console.log(pagination,'pa')
+    }
+}
+const styles = {
+    cardContent: {
+        margin: '10px'
     }
 }

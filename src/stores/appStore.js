@@ -21,8 +21,12 @@ class AppStore {
     @observable modals
     @observable mForm
     @observable page
+    @observable collapsed
+    @observable leftMenuMode
     constructor() {
-        this.isLogin = !!Session.isAuthenticated()
+        this.collapsed = false
+        this.leftMenuMode = 'inline'
+        this.isLogin = false
         this.num = 0
         this.flag = ''
         this.forms = {}
@@ -69,20 +73,18 @@ class AppStore {
     }
 
     @action login = async values =>{
-
-            const res = await post(`${process.env.REACT_APP_API_URL}/login`,values)
-        console.log(values,'res')
-          if (res.data===200){
+        const res = await post(`${process.env.REACT_APP_API_URL}/login`,values)
+        if (res.data===200){
             runInAction(()=>{
                 this.isLogin = true
                 this.currentName = values.loginName
             })
-          }else {
-                message.error("用户名或密码错误，登录失败")
-              runInAction(()=>{
-                  this.loading = false
-              })
-          }
+        }else {
+            message.error("用户名或密码错误，登录失败")
+            runInAction(()=>{
+                this.loading = false
+            })
+        }
     }
 
     @computed
@@ -156,25 +158,25 @@ class AppStore {
             }
             this.mForm = {}
         })
-         this.loading = false
+        this.loading = false
     }
 
 
     @action
     showDetail = async(record) =>{
 
-            console.log(record,'321')
-            runInAction(()=>{
-                this.userInfo = record
-                this.mForm = record
-            })
-            console.log('123',this.mForm)
-        }
+        console.log(record,'321')
+        runInAction(()=>{
+            this.userInfo = record
+            this.mForm = record
+        })
+        console.log('123',this.mForm)
+    }
 
-        // const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
-        // runInAction(()=>{
-        //     this.mForm = res
-        // })
+    // const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
+    // runInAction(()=>{
+    //     this.mForm = res
+    // })
 
 
     @action
@@ -293,8 +295,11 @@ class AppStore {
             this.initUser()
         })
     }
-
-
+    @action.bound
+    collapse () {
+        this.collapsed = !this.collapsed
+        this.leftMenuMode = this.collapsed ? 'vertical' : 'inline'
+    }
 }
 
 export default new AppStore()
