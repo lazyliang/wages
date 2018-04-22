@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76add7f0-2056-4ba3-81da-367549124d47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/03c30757c35a8433c1a2e78cf52d7d141271cbb3.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0b172d50d2cf6a763bcc473e2b7a467081d94261.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1d1b632ba2e849c1bfdb3a6e2c70c68c43716954.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/28d7ba8ff1f443a9ed7b0cd8239070229e3a152e.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/459ce69645f59bf899414f7009e6ba411d887eb3.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5ba5eb403903a05537cf9e19bc3a5b20cba32917.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/67d3bd908ae8aae0449ccd67d1f7ebaae04899ad.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/78f362904cb6d1c68ada83fa848f8bfb825d82bb.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/84e9724aeb1f49e1764b08992077405243c55bc7.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8777ae360d57cc9ed986577038c34e09ecdc840c.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/95017e6e55b376833e198b5c9e3c70ee6e48aea1.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/adc0b627d1f73c2ca7b657d6bf83ef2f36f04b2c.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9e1908a885c6790fab5209a800aac88e186117c.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bae6ed48ec9a5c5ae4c66c0774a8c29547856528.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bfd13850927fcbcc0022d6620b97a2c46f558433.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c072c36595d932c2a2adfe3daf9789dcbf4a0512.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c141bf9dfe6fa83738e28d04a5a064bc8a24c387.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c7e36c4fcd27fa7be7f2770e0c5862b29b1e4d27.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c91a67058f204a6ae77867150f2ce87d4097da3c.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecd324531cb4daaae9bbdd6b310568fee8103b38.json.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/assets/imgs/resizeApi.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Layout/Noti.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Layout/Login.js" afterPath="$PROJECT_DIR$/src/components/Layout/Login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Layout/Main.js" afterPath="$PROJECT_DIR$/src/components/Layout/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Layout/Noti.js" afterPath="$PROJECT_DIR$/src/components/Layout/Noti.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/Modal.js" afterPath="$PROJECT_DIR$/src/router/wages/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/Modals.js" afterPath="$PROJECT_DIR$/src/router/wages/Modals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/store.js" afterPath="$PROJECT_DIR$/src/router/wages/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/views/List.js" afterPath="$PROJECT_DIR$/src/router/wages/views/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/views/WagesInfo.js" afterPath="$PROJECT_DIR$/src/router/wages/views/WagesInfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/wages/views/WagesModal.js" afterPath="$PROJECT_DIR$/src/router/wages/views/WagesModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stores/appStore.js" afterPath="$PROJECT_DIR$/src/stores/appStore.js" />
-    </list>
+    <list default="true" id="76add7f0-2056-4ba3-81da-367549124d47" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -380,7 +343,7 @@
       <workItem from="1524265679504" duration="2292000" />
       <workItem from="1524272520594" duration="15255000" />
       <workItem from="1524319805203" duration="2551000" />
-      <workItem from="1524352570912" duration="8241000" />
+      <workItem from="1524352570912" duration="8303000" />
     </task>
     <task id="LOCAL-00001" summary="增加了用户管理页面表格">
       <created>1523465726733</created>
@@ -417,16 +380,24 @@
       <option name="project" value="LOCAL" />
       <updated>1524289559855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="处理警告">
+      <created>1524366489871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524366489871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78562000" />
+    <option name="totallyTimeSpent" value="78624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -480,7 +451,8 @@
     <MESSAGE value="增加新增编辑表单" />
     <MESSAGE value="修改代码" />
     <MESSAGE value="增加样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加样式" />
+    <MESSAGE value="处理警告" />
+    <option name="LAST_COMMIT_MESSAGE" value="处理警告" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,7 +706,7 @@
         <state relative-caret-position="-135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -786,7 +758,7 @@
         <state relative-caret-position="-59">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
