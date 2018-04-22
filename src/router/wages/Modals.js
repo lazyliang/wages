@@ -1,7 +1,7 @@
 import {inject, observer} from "mobx-react/index";
-import {withRouter} from "react-router-dom";
+
 import React, {Component} from "react";
-import {Table, Button, Input, Modal, Form} from 'antd'
+import { Input, Modal, Form} from 'antd'
 
 const form = Form.create({
         onFieldsChange(props, changedFields) {
@@ -22,7 +22,6 @@ const form = Form.create({
     }
 )
 const FormItem = Form.Item
-const {Column} = Table
 @inject('appStore') @form @observer
 export default class Main extends Component {
 
@@ -52,57 +51,53 @@ export default class Main extends Component {
                     <Form style={{width: 500}}>
                         <FormItem label="姓名" {...formItemLayout}>
                             {getFieldDecorator('name', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写姓名',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="年龄" {...formItemLayout}>
                             {getFieldDecorator('age', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写年龄',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="性别" {...formItemLayout}>
                             {getFieldDecorator('sex', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写性别',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="地址" {...formItemLayout}>
                             {getFieldDecorator('address', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写地址',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="联系电话" {...formItemLayout}>
                             {getFieldDecorator('tel', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写联系电话',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="登录名" {...formItemLayout}>
                             {getFieldDecorator('loginName', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写登录名',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
                         <FormItem label="密码" {...formItemLayout}>
                             {getFieldDecorator('password', {
-                                rules: [{required: true, message: '请填写用户名',}]
+                                rules: [{required: true, message: '请填写密码',}]
                             })(
                                 <Input/>
                             )}
                         </FormItem>
-                        {/*<FormItem>*/}
-                        {/*<Button*/}
-                        {/*onClick={this.submit}>确定</Button>*/}
-                        {/*</FormItem>*/}
                     </Form>
                 </Modal>
             </div>

@@ -1,10 +1,10 @@
 import {inject, observer} from "mobx-react/index";
 import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
-import { Table,Button,Spin ,Modal } from 'antd'
+import { Modal } from 'antd'
 
 
-const {Column} = Table
+
 @inject('wagesStore')  @withRouter @observer
 export default class WagesInfo extends Component {
     handleCancel= () =>{

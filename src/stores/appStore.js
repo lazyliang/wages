@@ -1,8 +1,8 @@
 import {observable, action, runInAction, computed} from 'mobx'
 import {json, post, get} from '../router/utils/ajax'
-import * as Session from '../router/utils/Session'
+
 import { message }from 'antd'
-import { handleSeerchAndPage } from '../router/utils/Utils'
+
 
 class AppStore {
     @observable num
@@ -288,7 +288,7 @@ class AppStore {
         runInAction(()=>{
             this.loading = true
         })
-        const res = await json.delete(`${process.env.REACT_APP_API_URL}/user/deleteOne?id=${record.id}`)
+        await json.delete(`${process.env.REACT_APP_API_URL}/user/deleteOne?id=${record.id}`)
         runInAction(()=>{
             this.loading = false
             message.success('删除成功')

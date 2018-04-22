@@ -10,7 +10,6 @@ const Main = asyncComponent(()=>import('./components/Layout/Main'))
 export default class App extends Component {
   render() {
    const { isLogin } = this.props.appStore
-    const { forms } = this.props.appStore.forms
       return isLogin ? (
           <Switch>
           <Route path="/" component={Main}/>

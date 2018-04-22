@@ -1,6 +1,6 @@
 import React,{Component} from  'react'
 import { observer, inject } from 'mobx-react'
-import  { Form, Icon, Input, Button, Checkbox,Card } from 'antd'
+import  { Form, Icon, Input, Button } from 'antd'
 import './index.css'
 import bg from '../assets/imgs/loginBg.jpeg'
 const FormItem = Form.Item;
@@ -40,23 +40,23 @@ export default class Login extends Component {
                     <Form onSubmit={this.handleSubmit} className="login-form" style={{margin: '12%'}}>
                         <FormItem>
                             {getFieldDecorator('loginName', {
-                                rules: [{ required: true, message: 'Please input your username!' }],
+                                rules: [{ required: true, message: '请输入您的登录名!' }],
                             })(
-                                <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="loginName" />
+                                <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="登录名" />
                             )}
                         </FormItem>
                         <FormItem>
                             {getFieldDecorator('password', {
-                                rules: [{ required: true, message: 'Please input your Password!' }],
+                                rules: [{ required: true, message: '请输入您的密码！' }],
                             })(
-                                <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
+                                <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="密码" />
                             )}
                         </FormItem>
-
+                        <FormItem>
                         <Button type="primary" onClick={this.validateAndLogin} className="login-form-button">
-                            Log in
+                            登 录
                         </Button>
-
+                        </FormItem>
                     </Form>
                 </div>
             </div>

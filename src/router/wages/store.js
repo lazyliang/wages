@@ -85,24 +85,24 @@ class WagesStore {
     @action save = async () => {
         console.log(this.mForm, 'mform')
         if (this.mForm.id) {
-            // const res = await json.put(`${process.env.REACT_APP_API_URL}/user/updateOne`, {
-            //     ...this.mForm, isDelete:'0',
-            // })
-            // if (res && res.status === 0) {
-            //     runInAction(()=>{
-            //         this.modal = 'hide'
-            //         message.error("修改失败")
-            //         this.initUser()
-            //     })
-            //     return
-            //
-            // }else{
-            //     runInAction(() => {
-            //         this.modal = 'hide'
-            //         message.success('修改成功')
-            //         this.initUser()
-            //     })
-            // }
+            const res = await json.put(`${process.env.REACT_APP_API_URL}/wages/updateOne`, {
+                ...this.mForm,
+            })
+            if (res && res.status === 0) {
+                runInAction(()=>{
+                    this.modal = 'hide'
+                    message.error("修改失败")
+                    this.initWages()
+                })
+                return
+
+            }else{
+                runInAction(() => {
+                    this.modal = 'hide'
+                    message.success('修改成功')
+                    this.initWages()
+                })
+            }
         } else {
             const res = await json.post(`${process.env.REACT_APP_API_URL}/wages/createOne`, this.mForm)
             console.log(res, 'res')
@@ -199,6 +199,25 @@ class WagesStore {
 
             })
         }
+    }
+
+    @action
+    showModal = (record) =>{
+        runInAction(()=>{
+            this.userInfo = record
+            this.modal = 'show'
+        })
+    }
+
+    @action
+    deleteOne = async(record) =>{
+         await json.delete(`${process.env.REACT_APP_API_URL}/wages/deleteOne?id=${record.id}`)
+
+        runInAction(()=>{
+            this.loading = false
+            message.success('删除成功')
+            this.initWages()
+        })
     }
 }
 

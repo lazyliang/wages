@@ -7,7 +7,7 @@ import WagesInfo from './WagesInfo'
 
 
 
-const ButtonGroup = Button.Group
+
 const {Column} = Table
 @inject('wagesStore') @withRouter @observer
 export default class List extends Component {
@@ -52,11 +52,12 @@ export default class List extends Component {
     handleAdd = () => {
         this.props.wagesStore.initEdit()
     }
-    handleEdit = () =>{
-
+    handleEdit = (record) =>{
+        this.props.wagesStore.showDetail(record)
+        this.props.wagesStore.showModal(record);
     }
-    handleDelete = () =>{
-
+    handleDelete = (record) =>{
+        this.props.wagesStore.deleteOne(record);
     }
     showModal = (record) =>{
 

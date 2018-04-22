@@ -1,10 +1,10 @@
 import {inject, observer} from "mobx-react/index";
 import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
-import { Table,Button,Spin ,Modal } from 'antd'
+import {Modal } from 'antd'
 
 
-const {Column} = Table
+
 @inject('appStore')  @withRouter @observer
 export default class Main extends Component {
     handleCancel= () =>{
@@ -14,7 +14,6 @@ export default class Main extends Component {
         const { appStore } = this.props
         return(
             <div>
-                {/*<Button type="primary" onClick={this.showModal}>Open</Button>*/}
                 <Modal
                     title="个人资料"
                     visible={appStore.modal ==='show'}

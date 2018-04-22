@@ -1,7 +1,6 @@
 import {inject, observer} from "mobx-react/index";
-import {withRouter} from "react-router-dom";
 import React, {Component} from "react";
-import {Table, Button, Input, Modal, Form, Select} from 'antd'
+import {  Input, Modal, Form, Select} from 'antd'
 const Option = Select.Option
 const form = Form.create({
         onFieldsChange(props, changedFields) {
@@ -25,7 +24,6 @@ const form = Form.create({
 )
 
 const FormItem = Form.Item
-const {Column} = Table
 @inject('wagesStore') @form @observer
 export default class WagesModal extends Component {
 
