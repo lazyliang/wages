@@ -120,18 +120,11 @@ class AppStore {
 
     @action
     getJava = async () => {
-        // let result = fetch(`http://localhost:9091/new/haha`, { credentials: 'include', headers: { 'Accept': 'application/json, text/plain, */*' } });
-        // result.then(res => { return res.text() }).then(text => { console.log(text) })
         const res = await get(`${process.env.REACT_APP_API_URL}/new/web`)
         if (res.status === 0) return
         runInAction(() => {
             this.flag = res
         })
-        // console.log('213',res)
-        // runInAction(()=>{
-        //  this.flag=res
-        // })
-
     }
 
     @action
@@ -139,7 +132,6 @@ class AppStore {
         runInAction(()=>{
             this.loading = true
         })
-        // let search = handleSeerchAndPage(page,this.pagination)
         const res = await get(`${process.env.REACT_APP_API_URL}/users:search?page=${page}`)
         runInAction(()=>{
             this.list = res.content.map(l=>{
@@ -170,12 +162,6 @@ class AppStore {
             this.mForm = record
         })
     }
-
-    // const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
-    // runInAction(()=>{
-    //     this.mForm = res
-    // })
-
 
     @action
     showModal = () =>{
