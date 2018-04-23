@@ -45,16 +45,16 @@ export default class Main extends Component {
                     trigger={null}
                     collapsible
                     collapsed={appStore.collapsed}>
+                    <div className="logo">
+                        <img style={styles.logoImg} alt="后台管理系统" src={logo}/>
+                        {!appStore.collapsed && <span style={styles.logoText}>lazyliang</span>}
+                    </div>
                     <Menu
                         defaultSelectedKeys={['1']}
                         defaultOpenKeys={['sub1']}
                         mode={appStore.leftMenuMode}
                         theme="dark"
                     >
-                        <div className="logo">
-                            <img style={styles.logoImg} alt="后台管理系统" src={logo}/>
-                            {!appStore.collapsed && <span style={styles.logoText}>lazyliang</span>}
-                        </div>
                         <Menu.Item key="1">
                             <Icon type="pie-chart"/>
                             <span>主页面</span>
@@ -113,7 +113,6 @@ const styles = {
         lineHeight: '32px'
     },
     logoText: {
-        verticalAlign: 'text-bottom',
         fontSize: '16px',
         textTransform: 'uppercase',
         display: 'inline-block',

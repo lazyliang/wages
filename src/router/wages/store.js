@@ -69,7 +69,8 @@ class WagesStore {
                     addtion:l.addtion,
                     overTime:l.overTime,
                     baseWages:l.baseWages,
-                    yk:l.yk
+                    yk:l.yk,
+                    userId:l.userId
                 }
             })
             this.pagination = {
@@ -204,14 +205,16 @@ class WagesStore {
     @action
     showModal = (record) =>{
         runInAction(()=>{
+            this.loading = true
             this.userInfo = record
             this.modal = 'show'
+            this.loading = false
         })
     }
 
     @action
     deleteOne = async(record) =>{
-         await json.delete(`${process.env.REACT_APP_API_URL}/wages/deleteOne?id=${record.id}`)
+        await json.delete(`${process.env.REACT_APP_API_URL}/wages/deleteOne?id=${record.id}`)
 
         runInAction(()=>{
             this.loading = false

@@ -163,14 +163,12 @@ class AppStore {
 
 
     @action
-    showDetail = async(record) =>{
+    showDetail = (record) =>{
 
-        console.log(record,'321')
         runInAction(()=>{
             this.userInfo = record
             this.mForm = record
         })
-        console.log('123',this.mForm)
     }
 
     // const  res = await get(`${process.env.REACT_APP_API_URL}/user/findOne?id=${record.id}`)
@@ -189,8 +187,10 @@ class AppStore {
     @action
     showModals = (record) =>{
         runInAction(()=>{
+            this.loading = true
             this.userInfo = record
             this.modals = 'show'
+            this.loading = false
         })
     }
 

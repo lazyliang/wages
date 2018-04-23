@@ -58,7 +58,8 @@ export default class Main extends Component {
 
     handleEdit = (record) => {
         this.props.appStore.showDetail(record)
-        this.props.appStore.showModals(record);
+        this.props.appStore.showModals(record)
+
     }
 
     handleTableChange = (pagination) => {
