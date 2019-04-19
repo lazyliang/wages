@@ -5,7 +5,7 @@
  * @param searchFields
  * @returns {{}}
  */
-export const handleSeerchAndPage = (temPage, pagination, searchFields) => {
+  export const handleSeerchAndPage = (temPage, pagination, searchFields) => {
   if (temPage) {
     temPage--
   } else if (pagination.page) {

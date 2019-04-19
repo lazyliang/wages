@@ -74,7 +74,7 @@ class AppStore {
 
     @action login = async values =>{
         const res = await post(`${process.env.REACT_APP_API_URL}/login`,values)
-        if (res.data===200){
+        if (res.data===String(200)){
             runInAction(()=>{
                 this.isLogin = true
                 this.currentName = values.loginName

@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
 import {observer, inject} from 'mobx-react'
 import {withRouter, Link, Route} from 'react-router-dom'
-import {Layout,  Icon, Menu, } from 'antd'
+import {Layout,  Icon, Menu } from 'antd'
 
 import './Main.css'
 import logo from  '../assets/imgs/resizeApi.ico'
 import asyncComponent from '../commons/AsyncComponent'
 import bg from '../assets/imgs/loginBg.jpeg'
+
 
 
 
@@ -17,11 +18,21 @@ const Manager = asyncComponent(() => import('../../router/wages/Manager'))
 const Wages = asyncComponent(() => import('../../router/wages/views/List'))
 const Noti = asyncComponent(()=>import('./Noti'))
 
-@inject('appStore') @withRouter @observer
+const rentingBooks = asyncComponent(() => import('../backend/view/rentingBooks'))
+const buyBook = asyncComponent(()=>import('../backend/view/buyBook'))
+
+@inject('appStore','bookStores') @withRouter @observer
 export default class Main extends Component {
+    leftMenu = {
+        book:{
+            itemName1:'租赁图书',
+            itemName2:'购买图书'
+        }
+
+    }
+
 
     componentDidMount() {
-
         this.props.appStore.initUserInfo(this.props.appStore.currentName)
         console.log(this.props.appStore.stateforUser, 'is')
     }
@@ -36,9 +47,8 @@ export default class Main extends Component {
 
     }
 
-
     render() {
-        const {appStore} = this.props;
+        const {appStore, bookStores} = this.props;
         return (
             <Layout id="components-layout-demo-custom-trigger" style={{height: '100vh'}}>
                 <Sider
@@ -75,6 +85,24 @@ export default class Main extends Component {
                             <span>简介</span>
                             <Link to={'/noti'}/>
                         </Menu.Item>
+                        <SubMenu key='bookManage' title={<span><Icon type="book" /> <span>图书管理</span></span>}>
+                            {/*<Menu.Item key="rentingBooks" >*/}
+                            {/*    <div onClick={() => this.rentingBooks(key, this.leftMenu.book.itemName1)}> <span>{this.leftMenu.book.itemName1}</span> </div>*/}
+                            {/*</Menu.Item>*/}
+                            {/*<Menu.Item key="buyBook" >*/}
+                            {/*    <div onClick={this.buyBook(key, this.leftMenu.book.itemName2)}><span>{this.leftMenu.book.itemName2}</span></div>*/}
+                            {/*</Menu.Item>*/}
+                            <Menu.Item key={'rentingBooks'}>
+                                <spon>
+                                    {this.leftMenu.book.itemName1}
+                                </spon>
+                                <Link to={'/rentingBooks'}/>
+                            </Menu.Item>
+                            <Menu.Item key={'buyBook'}>
+                                <span>{this.leftMenu.book.itemName2}</span>
+                                <Link to={'/buyBook'}/>
+                            </Menu.Item>
+                        </SubMenu>
                     </Menu>
                 </Sider>
                 <Layout id="main-layout-content">
@@ -99,6 +127,8 @@ export default class Main extends Component {
                         <Route path="/userManager" component={Manager}/>
                         <Route path="/wagesManager" component={Wages}/>
                         <Route path="/noti" component={Noti}/>
+                        <Route path={'/rentingBooks'} component={rentingBooks}/>
+                        <Route path={'/buyBook'} component={buyBook} />
                     </Content>
                 </Layout>
             </Layout>
