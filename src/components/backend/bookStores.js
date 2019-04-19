@@ -26,7 +26,8 @@ class bookStores {
             bookName:''
         };
         this.searchField = {
-            waitSearchName:''
+            waitSearchName:'',
+            waitSearchAuthor:''
         }
     }
 
@@ -38,7 +39,7 @@ class bookStores {
             this.loading = true;
         })
         let search = handleSeerchAndPage(page, this.pagination, this.searchField)
-        const res = await get(`${process.env.REACT_APP_API_URL}/search:byName`,search);
+        const res = await get(`${process.env.REACT_APP_API_URL}/search:books`,search);
         console.log({res})
         runInAction(()=>{
             this.bookInfo = res.content || [];
