@@ -1,5 +1,5 @@
 import {observable, action, runInAction} from "mobx";
-import {get} from "../../router/utils/ajax";
+import {get,json} from "../../router/utils/ajax";
 import { handleSeerchAndPage } from '../../router/utils/Utils'
 class bookStores {
     @observable bookInfoModelStatus;
@@ -26,27 +26,34 @@ class bookStores {
             bookName:''
         };
         this.searchField = {
-            waitSearchName:'',
-            waitSearchAuthor:''
+            nameOrAuthor:''
         }
     }
 
 
     @action
-    searchByName = async (value, page)=>{
-        runInAction(()=>{
-            this.searchField.waitSearchName = value
-            this.loading = true;
-        })
-        let search = handleSeerchAndPage(page, this.pagination, this.searchField)
-        const res = await get(`${process.env.REACT_APP_API_URL}/search:books`,search);
-        console.log({res})
-        runInAction(()=>{
-            this.bookInfo = res.content || [];
+    searchByNameOrAuthor = async (value, page)=>{
+        let search
+        let res
+        if (value){
+                this.searchField.nameOrAuthor = value
 
-            this.loading = false;
+        }
+        search = handleSeerchAndPage(page, this.pagination, this.searchField)
+
+        res = await json.get(`${process.env.REACT_APP_API_URL}/search:books`,search);
+        this.loading = true;
+
+        console.log(search,'ggggggh')
+        console.log(res,'res')
+        runInAction(()=>{
+            this.bookInfo = res.content
+
+            this.loading = false
 
         })
+
+        console.log(this.bookInfo,'bookinfo')
         this.pagination = {
             total: res.totalElements,
             results: res.size,
@@ -73,35 +80,35 @@ class bookStores {
         console.log(Date()+'ooooo')
     }
 
-    @action
-    initBook = async (page)=>{
-        runInAction(()=>{
-            this.loading = true;
-        })
-        let search = handleSeerchAndPage(page, this.pagination, this.searchField);
-        const res = await get(`${process.env.REACT_APP_API_URL}/search:books`,search);
-        runInAction(()=>{
-            this.bookInfo = res.content;
-            //     .map(s=>{
-            //     return{
-            //         id:s.id,
-            //         bookName:s.bookName,
-            //         author:s.author,
-            //         publicationDate:s.publicationDate,
-            //         abstracts:s.abstracts
-            //     }
-            // })
-
-            this.pagination = {
-                total: res.totalElements,
-                results: res.size,
-                current: res.number+1,
-            }
-            this.mForm = {};
-        });
-
-        this.loading = false;
-    };
+    // @action
+    // initBook = async (page)=>{
+    //     runInAction(()=>{
+    //         this.loading = true;
+    //     })
+    //     let search = handleSeerchAndPage(page, this.pagination, this.searchField);
+    //     const res = await get(`${process.env.REACT_APP_API_URL}/search:books`,search);
+    //     runInAction(()=>{
+    //         this.bookInfo = res.content;
+    //         //     .map(s=>{
+    //         //     return{
+    //         //         id:s.id,
+    //         //         bookName:s.bookName,
+    //         //         author:s.author,
+    //         //         publicationDate:s.publicationDate,
+    //         //         abstracts:s.abstracts
+    //         //     }
+    //         // })
+    //
+    //         this.pagination = {
+    //             total: res.totalElements,
+    //             results: res.size,
+    //             current: res.number+1,
+    //         }
+    //         this.mForm = {};
+    //     });
+    //
+    //     this.loading = false;
+    // };
 
 
     // @action

@@ -14,7 +14,7 @@ const confirm = Modal.confirm;
 class rentingBooks extends React.Component {
 
     componentDidMount() {
-        this.props.bookStores.initBook()
+        this.props.bookStores.searchByNameOrAuthor()
 
     }
 
@@ -40,7 +40,7 @@ class rentingBooks extends React.Component {
     }
 
     search = (value)=>{
-        this.props.bookStores.searchByName(value)
+        this.props.bookStores.searchByNameOrAuthor(value)
     }
 
     chageTable = (pagination)=>{
