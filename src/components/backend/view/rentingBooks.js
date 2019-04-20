@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ Component } from 'react'
 import {inject, observer} from "mobx-react";
 import { Card, Table,Modal, Button, Input, Spin} from 'antd'
 import BookInfoModal from './bookInfoModal'
@@ -9,12 +9,12 @@ const {Search} = Input;
 const { Column }= Table;
 const confirm = Modal.confirm;
 @inject('bookStores')
-@observer
 @withRouter
-class rentingBooks extends React.Component {
+@observer
+export default class rentingBooks extends Component {
 
-    componentDidMount() {
-        this.props.bookStores.searchByNameOrAuthor()
+    componentWillMount() {
+        this.props.bookStores.initBooks()
 
     }
 
@@ -40,11 +40,11 @@ class rentingBooks extends React.Component {
     }
 
     search = (value)=>{
-        this.props.bookStores.searchByNameOrAuthor(value)
+        this.props.bookStores.inquire(value)
     }
 
-    chageTable = (pagination)=>{
-        this.props.bookStores.initBook(pagination.current)
+    changeTable = (pagination)=>{
+        this.props.bookStores.initBooks(pagination.current)
     }
 
     render() {
@@ -52,7 +52,7 @@ class rentingBooks extends React.Component {
         return(
             <div>
             <Card style={styles.cardContent}>
-                <Spin spinning={bookStores.loading}>
+                <Spin spinning={this.props.bookStores.loading}>
                     <div>
                         <Search style = {{width: 300, float: 'left'}}
                                 placeholder="input search text"
@@ -63,7 +63,7 @@ class rentingBooks extends React.Component {
                     <div>
                         <Table align={'center'}
                                pagination={this.props.bookStores.pagination}
-                               onChange={this.chageTable}
+                               onChange={this.changeTable}
                                rowKey='id' bordered
                                dataSource={this.props.bookStores.bookInfo.slice()}>
                             <Column title="图书编号" dataIndex="id" key="id" width={100}/>
@@ -98,6 +98,3 @@ const styles = {
         margin: '10px'
     }
 };
-
-
-export default rentingBooks

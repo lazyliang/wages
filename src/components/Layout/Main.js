@@ -19,14 +19,14 @@ const Wages = asyncComponent(() => import('../../router/wages/views/List'))
 const Noti = asyncComponent(()=>import('./Noti'))
 
 const rentingBooks = asyncComponent(() => import('../backend/view/rentingBooks'))
-const buyBook = asyncComponent(()=>import('../backend/view/buyBook'))
+const bookManage = asyncComponent(()=>import('../backend/view/BookManage'))
 
 @inject('appStore','bookStores') @withRouter @observer
 export default class Main extends Component {
     leftMenu = {
         book:{
-            itemName1:'租赁图书',
-            itemName2:'购买图书'
+            itemName1:'租赁购买',
+            itemName2:'图书管理'
         }
 
     }
@@ -85,7 +85,7 @@ export default class Main extends Component {
                             <span>简介</span>
                             <Link to={'/noti'}/>
                         </Menu.Item>
-                        <SubMenu key='bookManage' title={<span><Icon type="book" /> <span>图书管理</span></span>}>
+                        <SubMenu key='bookManage' title={<span><Icon type="book" /> <span>书籍板块</span></span>}>
                             {/*<Menu.Item key="rentingBooks" >*/}
                             {/*    <div onClick={() => this.rentingBooks(key, this.leftMenu.book.itemName1)}> <span>{this.leftMenu.book.itemName1}</span> </div>*/}
                             {/*</Menu.Item>*/}
@@ -96,11 +96,11 @@ export default class Main extends Component {
                                 <spon>
                                     {this.leftMenu.book.itemName1}
                                 </spon>
-                                <Link to={'/rentingBooks'}/>
+                                <Link to={'/rentAndBuy'}/>
                             </Menu.Item>
-                            <Menu.Item key={'buyBook'}>
+                            <Menu.Item key={'bookManage'}>
                                 <span>{this.leftMenu.book.itemName2}</span>
-                                <Link to={'/buyBook'}/>
+                                <Link to={'/bookManage'}/>
                             </Menu.Item>
                         </SubMenu>
                     </Menu>
@@ -127,8 +127,8 @@ export default class Main extends Component {
                         <Route path="/userManager" component={Manager}/>
                         <Route path="/wagesManager" component={Wages}/>
                         <Route path="/noti" component={Noti}/>
-                        <Route path={'/rentingBooks'} component={rentingBooks}/>
-                        <Route path={'/buyBook'} component={buyBook} />
+                        <Route path={'/rentAndBuy'} component={rentingBooks}/>
+                        <Route path={'/bookManage'} component={bookManage} />
                     </Content>
                 </Layout>
             </Layout>
