@@ -1,11 +1,16 @@
 import React from 'react'
 import {observer, inject} from "mobx-react";
 import {withRouter} from "react-router-dom";
-import {Card, Button, Table, Modal, Icon, Cascader} from "antd"
+import {Card, Button, Table, Modal, Icon, Cascader, Input} from "antd"
+import BookInfoModal from './bookInfoModal'
+import ModifyModal from './ModifyModal'
+import bookStores from "../bookStores";
 
 const { Column } = Table
 const { confirm } = Modal
+const { Search } = Input
 
+//const selectedValues = []
 @inject("bookStores")
 @withRouter
 @observer
@@ -26,23 +31,26 @@ export default class BookManage extends React.Component{
     showAbstract = (record)=>{
         this.props.bookStores.showBookInfoModel(record);
     }
+    // modifyBookInfo = ()=>{
+    //     //
+    //     // }
 
-    confirmModify = (record)=>{
-        confirm({
-            title:"确认修改"+record.bookName + '么？',
-            content:'',
-            onOk:'新增',
-            okCancel:'退出'
-        })
+    modify = (record)=>{
+        this.props.bookStores.showBookModifyModalStatus(record)
     }
 
     confirmDelete = (record)=>{
         confirm({
             title:'确认删除' + record.bookName + '么？',
             content:'',
-            onOk:'购买',
-            okCancel:'退出'
         })
+    }
+
+    showSelectedValues = (value)=>{
+        this.props.bookStores.showSelectedValues(value)
+    }
+    search = (value)=>{
+        this.props.bookStores.searchByTypeOrName(value)
     }
 
     render() {
@@ -51,14 +59,21 @@ export default class BookManage extends React.Component{
                 <Card>
                     <div>
                         <Cascader
+                            style={{float: 'left'}}
                             options={options}
-                            onChange={''}
+                            onChange={this.showSelectedValues}
                             placeholder="Please select"
                             showSearch={this.filter}
                         />
-                        <Button onClick={''} size={'Default'} >
-                            搜索
-                        </Button>
+
+                        <Search style = {{width: 300}}
+                                placeholder="input search text"
+                                onSearch={this.search}
+                                enterButton={"搜索"}
+                        />
+
+
+
                         <Button onClick={''} size={'Default'} style={{float: 'right'}} >
                             <Icon type="plus" />
                             新增图书
@@ -82,13 +97,16 @@ export default class BookManage extends React.Component{
                             )}/>
                             <Column title="操作" key="operating" dataIndex="operating" width={60} render={(text, record)=>(
                                 <div>
-                                    <a onClick={this.confirmModify.bind(this, record)}><Icon type="edit" />修改</a>
+                                    <a onClick={this.modify.bind(this, record)}><Icon type="edit" />修改</a>
                                     <br></br>
                                     <a onClick={this.confirmDelete.bind(this, record)}><Icon type="delete" />删除</a>
 
                                 </div>
                             )}/>
+
                         </Table>
+                        <BookInfoModal/>
+                        <ModifyModal/>
                     </div>
                 </Card>
             </div>
@@ -112,6 +130,10 @@ const options = [{
         {
             value:'love',
             label:'爱情'
+        },
+        {
+            value:'xianxia',
+            label:'仙侠'
         }
     ]
 },

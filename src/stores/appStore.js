@@ -19,7 +19,7 @@ class AppStore {
     @observable modal
     @observable userInfo
     @observable modals
-    @observable mForm
+    @observable modifyForm
     @observable page
     @observable collapsed
     @observable leftMenuMode
@@ -43,7 +43,7 @@ class AppStore {
         this.modal = 'hide'
         this.userInfo = {}
         this.modal = 'hide'
-        this.mForm = {}
+        this.modifyForm = {}
         this.page = {
             current: 0,
             total: 1

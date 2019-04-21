@@ -18,7 +18,8 @@ export default class bookInfoModal extends Component {
                 <Modal type="primary"
                        visible={this.props.bookStores.bookInfoModelStatus === 'show'}
                        onCancel={this.hideModel}  onOk={this.hideModel}
-                       title={this.props.bookStores.rowInfo.bookName}>
+                       title={this.props.bookStores.rowInfo.bookName}
+                       footer={null}>
                     <p>{this.props.bookStores.rowInfo.abstracts}</p>
 
                 </Modal>
