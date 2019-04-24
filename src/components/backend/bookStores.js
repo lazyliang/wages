@@ -151,20 +151,19 @@ class bookStores {
         this.bookModifyModalStatus = 'show'
     }
 
-    // onEditField = ()=>{
-    //     const fields = {...this.fields, ...changedFields}
-    //     let mForm = {
-    //         id:fields.id.value,
-    //         name:fields.name.value,
-    //         age:fields.age.value,
-    //         sex:fields.sex.value,
-    //         address:fields.address.value,
-    //         tel:fields.tel.value,
-    //         password:fields.password.value,
-    //         loginName:fields.loginName.value
-    //     }
-    //     this.mForm = mForm
-    // }
+    onEditField = (changedFields)=>{
+        runInAction(()=>{
+            this.addParams={
+                id : changedFields.id ? changedFields.id.value : this.addParams.id,
+                bookName : changedFields.bookName ? changedFields.bookName.value : this.addParams.bookName,
+                author : changedFields.author ? changedFields.author.value : this.addParams.author,
+                publicationDate : changedFields.publicationDate ? changedFields.publicationDate.value : this.addParams.publicationDate,
+                abstracts : changedFields.author ? changedFields.author.value : this.addParams.author,
+                type1 : changedFields.type1 ? changedFields.type1.value : this.addParams.type1,
+                type2 : changedFields.type1 ? changedFields.type1.value : this.addParams.type2
+            }
+        })
+    }
 
 }
 
